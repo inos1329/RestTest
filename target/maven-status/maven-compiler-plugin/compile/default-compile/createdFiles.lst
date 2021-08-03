@@ -1,0 +1,7 @@
+service/TranslationsItem.class
+gateway/YandexTranslateGateway.class
+service/Request.class
+service/Request$RequestBuilder.class
+pojo/ResponseBody.class
+pojo/ResponseBody$ResponseBodyBuilder.class
+service/TranslationsItem$TranslationsItemBuilder.class
