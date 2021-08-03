@@ -8,6 +8,8 @@ public class YandexTranslateTest {
     private static final String targetLanguageCode = "ru";
     private static final String hello = "Привет";
     private static final String world = "мир";
+    //private static final String hello = "Всем";
+    //private static final String world = "привет";
 
     @Test
     public void getHelloTranslate(){
