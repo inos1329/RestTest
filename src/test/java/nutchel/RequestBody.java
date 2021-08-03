@@ -1,7 +1,7 @@
 package nutchel;
 
 public class RequestBody {
-    protected static final String YANDEX_API_KEY = "t1.9euelZrGjMuUmZiRm8-TmJqYjImPzu3rnpWalsiQyI6QlZaWy5uWlZONlcrl8_dQLGZ3-e8FbhET_t3z9xBbY3f57wVuERP-.K3M8nMOEX6MvwnOYtxbUpS_JwNCq_BsuPCMjAz9eqHWG9MwMWL77D9lTYQo1FRxI-Rou6ZXxOP9t_aU_oZKmDQ";
+    protected static final String YANDEX_API_KEY = "t1.9euelZqOx5vIysnMxpKTzZfKmZKcku3rnpWalsiQyI6QlZaWy5uWlZONlcrl9PdyYlt3-e9KUFao3fT3MhFZd_nvSlBWqA.30et4cV4n9X626VZ5jUBkelRcgoyxod3g4RJLTVtk4YG6Ca9tIs3_gMovkwVuppZTsEB5u-eLIlEI8kMEVp_Dw";
     protected static final String URL  = "https://translate.api.cloud.yandex.net/translate/v2/translate";
     protected static String folderId = "b1ga7gnh28dsm7oo9lc1";
     protected static String string1 = "Hello";
