@@ -1,7 +1,8 @@
 import gateway.YandexTranslateGateway;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 import service.Request;
+
+import static org.testng.Assert.assertEquals;
 
 public class YandexTranslateTest {
     private static final String[] texts = new String[]{"Hello","world"};
@@ -15,7 +16,7 @@ public class YandexTranslateTest {
     public void getHelloTranslate(){
         YandexTranslateGateway yandexTranslateGateway = new YandexTranslateGateway();
         Request testTranslate = yandexTranslateGateway.getTranslate(texts,targetLanguageCode);
-        Assertions.assertEquals(testTranslate.getTranslations().get(0).getText(),hello);
-        Assertions.assertEquals(testTranslate.getTranslations().get(1).getText(),world);
+        assertEquals(testTranslate.getTranslations().get(0).getText(),hello);
+        assertEquals(testTranslate.getTranslations().get(1).getText(),world);
     }
 }
